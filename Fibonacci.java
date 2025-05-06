@@ -42,7 +42,7 @@ final class Fibonacci {
             return n;
         } else {
             // Recursive case
-            // Call the factorial method recursively
+            // Call the fibonacci method recursively
             // and add the two previous numbers
             // to get the current number
             return recFib(n - 1) + recFib(n - 2);
